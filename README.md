@@ -112,10 +112,10 @@ I'll accept seed nodes as pull requests here.
 
 ## Rules for network upgrades & forks
 
-The following rules are intended improve coordination and to reduce the fear of not being online during a fork or network upgrade.
+The following rules are intended improve coordination and to reduce the fear of not being online during a fork or network upgrade. These rules can only be applied to upgrades/forks initiated by the Cosmos team.
 
 1. All upgrades/forks need to be announced in the [Cosmos Validators Technical Updates](https://riot.im/app/#/room/#cosmos_validators_technical_updates:matrix.org) Riot channel. If there is no announcement in this channel, the upgrade has not been decided on. Other channels are solely for discussions and do not include official announcements.
 
-2. Every announcement has to include the date & time (in UTC) when the upgrade will happen. Upgrades can happen the earliest **12 hours** after they have been announced in the Riot channel. If something regarding the upgrade changes after the announcement (eg. the genesis file gets changed), it needs to be announced in the Riot channel and the timer resets to 12 hours. This gives everyone enough time to verify the correctness of files and to update their nodes.
+2. Every announcement has to include the date & time (in UTC) when the upgrade will happen. Upgrades can happen the earliest **12 hours** after they have been announced in the Riot channel. If something minor regarding the upgrade changes after the announcement (eg. the genesis file gets changed), it needs to be announced in the Riot channel and the timer resets to at least **3 hours**. This gives everyone enough time to verify the correctness of files and to update their nodes. Substantial changes that could require intervention reset the timer to **12 hours**.
 
 3. Decisions that require the opinion of the community can either be voted on as an onchain proposal or - if the network is offline - as a Github issue. The voting period needs to be at least 12 hours, which starts with the Riot channel announcement. Proposals need to be well defined. That means, they need to precisely explain what happens if the proposal gets accepted, but also what happens if it **not** gets accepted.
